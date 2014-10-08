@@ -1,0 +1,26 @@
+$fontPath : "../fonts/";
+@font-face {
+    font-family: 'clear_sansregular';
+    src: url('#{$fontPath}clearsans-regular-webfont.eot');
+    src: url('#{$fontPath}clearsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontPath}clearsans-regular-webfont.woff2') format('woff2'),
+         url('#{$fontPath}clearsans-regular-webfont.woff') format('woff'),
+         url('#{$fontPath}clearsans-regular-webfont.ttf') format('truetype'),
+         url('#{$fontPath}clearsans-regular-webfont.svg#clear_sansregular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'clear_sanslight';
+    src: url('#{$fontPath}clearsans-light-webfont.eot');
+    src: url('#{$fontPath}clearsans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontPath}clearsans-light-webfont.woff2') format('woff2'),
+         url('#{$fontPath}clearsans-light-webfont.woff') format('woff'),
+         url('#{$fontPath}clearsans-light-webfont.ttf') format('truetype'),
+         url('#{$fontPath}clearsans-light-webfont.svg#clear_sanslight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}

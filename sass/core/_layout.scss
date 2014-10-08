@@ -1,0 +1,11 @@
+.container {
+	padding: 10px 85px;
+}
+.main-content {
+	background-color: #fbfbfb;
+	padding: 40px 85px;
+}
+
+@media (max-width: $screen-xs-max) {
+	.container { padding: 1em;}
+}

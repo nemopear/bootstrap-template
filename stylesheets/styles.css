@@ -8033,3 +8033,79 @@ button.close {
     display: none !important;
   }
 }
+@font-face {
+  font-family: 'clear_sansregular';
+  src: url("../fonts/clearsans-regular-webfont.eot");
+  src: url("../fonts/clearsans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans-regular-webfont.woff2") format("woff2"), url("../fonts/clearsans-regular-webfont.woff") format("woff"), url("../fonts/clearsans-regular-webfont.ttf") format("truetype"), url("../fonts/clearsans-regular-webfont.svg#clear_sansregular") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'clear_sanslight';
+  src: url("../fonts/clearsans-light-webfont.eot");
+  src: url("../fonts/clearsans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans-light-webfont.woff2") format("woff2"), url("../fonts/clearsans-light-webfont.woff") format("woff"), url("../fonts/clearsans-light-webfont.ttf") format("truetype"), url("../fonts/clearsans-light-webfont.svg#clear_sanslight") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* line 4, ../sass/core/_base.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 6, ../sass/core/_base.scss */
+body {
+  font-family: "clear_sanslight", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+}
+
+@media (max-width: 768px) {
+  /* line 12, ../sass/core/_base.scss */
+  h1 {
+    font-size: 32px;
+  }
+
+  /* line 13, ../sass/core/_base.scss */
+  h2 {
+    font-size: 28px;
+  }
+}
+/* line 16, ../sass/core/_base.scss */
+.brand {
+  font-size: 30px;
+}
+
+/* line 18, ../sass/core/_base.scss */
+.site-name h1 {
+  font-size: 65px;
+  font-size: 6.5rem;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  /* line 26, ../sass/core/_base.scss */
+  .site-name h1 {
+    font-size: 35px;
+    font-size: 3.5rem;
+  }
+}
+/* line 1, ../sass/core/_layout.scss */
+.container {
+  padding: 10px 85px;
+}
+
+/* line 4, ../sass/core/_layout.scss */
+.main-content {
+  background-color: #fbfbfb;
+  padding: 40px 85px;
+}
+
+@media (max-width: 768px) {
+  /* line 10, ../sass/core/_layout.scss */
+  .container {
+    padding: 1em;
+  }
+}

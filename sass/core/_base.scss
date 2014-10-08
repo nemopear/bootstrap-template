@@ -1,0 +1,28 @@
+// BASE are elements that use all page
+
+
+html { font-size: 62.5%;} // for 1 rem = 10px;
+
+body {
+	font-family: $font-family-clearsans-light;
+	font-size: 1.4em; // 1.4em = 14px;
+}
+
+@media (max-width: $screen-xs-max) {
+	h1 { font-size: 32px;}
+	h2 { font-size: 28px;}
+}
+
+.brand { font-size: 30px;}
+
+.site-name h1 { 
+	@include font-size(65);
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-weight: 100;
+}
+
+@media (max-width: $screen-xs-max) {
+	.site-name h1 { @include font-size(35);}
+}
+
